@@ -12,3 +12,4 @@ if array.length == 1
 else
   result = "#{array[0, array.length].join(', ')} and #{array.last}"
 end
+end
