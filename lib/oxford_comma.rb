@@ -8,7 +8,7 @@ end
 
 def oxford_comma(array)
 if array.length <= 2
-  result = array[0]
+  result = array.join(" and ")
 else
   result = "#{array[0, array.length].join(', ')} and #{array.last}"
 end
